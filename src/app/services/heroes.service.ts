@@ -56,13 +56,14 @@ export class HeroesService {
   ];
 
   constructor() {
-    console.log("Service ready to use");
   }
 
   getHeroes():Heroe[]
   {return this.heroes;}
 
-
+  getHeroe(idx:string){
+    return this.heroes[idx];
+  }
 }
 
 export interface Heroe{
