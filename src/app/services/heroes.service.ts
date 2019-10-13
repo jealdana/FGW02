@@ -55,8 +55,7 @@ export class HeroesService {
     }
   ];
 
-  constructor() {
-  }
+  constructor() {}
 
   getHeroes():Heroe[]
   {return this.heroes;}
